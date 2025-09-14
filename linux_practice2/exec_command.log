@@ -1,0 +1,110 @@
+    1  pwd
+    2  cd /home
+    3  ls
+    4  ls test2
+    5  ls home
+    6  ls test1
+    7  mkdir test3
+    8  ls
+    9  rm -i home
+   10  rm -r home
+   11  ls
+   12  mv test4 test1_cpry
+   13  ls
+   14  ls test1
+   15  rm test1/copy.php
+   16  ls
+   17  ls test1
+   18  rm 0r test3
+   19  rm ~r test3
+   20  rm -r test3
+   21  ls
+   22  rm test1/copy/*.php
+   23  rm test1_copy/*.php
+   24  rm test1_copy/*.php
+   25  ls
+   26  rm test1_cpry/*.php
+   27  ls test1_cpry
+   28  '#Hello World' > README.md
+   29  echo '#Hello World' > README.md
+   30  cat README.md
+   31  echo '# Serer Lesson' > README.md
+   32  cat README.md
+   33  echo 'Linux Practice' >> README.md
+   34  echo '-----------------' >> README.md
+   35  cat README.md
+   36  apt update -y && apt install -y vim
+   37  vi README.md
+   38  cat README.md
+   39  :set enc?
+   40  # :set enc?
+   41  vi README.md
+   42  cat README.md
+   43  cd root
+   44  cd /root
+   45  mkdir server_lesson && cd server_lesson
+   46  apt update -y && install -y git
+   47  apt update -y && apt install -y git
+   48  git version
+   49  git init
+   50  touch first.text
+   51  ls
+   52  ls /
+   53  cd /
+   54  ls
+   55  ~/server_lesson/
+   56  cd /root/server_lesson/
+   57  ls
+   58  mkdir linux_practice1
+   59  mkdir linux_practice1/public
+   60  ls linux_practice1/
+   61  docker stop debian
+   62  docker stop debian
+   63  exit
+   64  ls
+   65  cd ~/server_lesson/
+   66  ls
+   67  ls server_lesson
+   68  ls /server_lesson
+   69  ls server_lesson/
+   70  ls linux_practice1/
+   71  ls linux_practice1/public/
+   72  cd linux_practice1/public/ && touch index.php
+   73  ls
+   74  cp index.php index_bk.php
+   75  s
+   76  ls
+   77  ../
+   78  cd ../
+   79  cp -r public tmp 
+   80  ls
+   81  cd tmp
+   82  ls
+   83  rm index_bk.php 
+   84  ls
+   85  cd ../
+   86  cd ../
+   87  touch README.md
+   88  ls
+   89  vi README.md 
+   90  cat README.md 
+   91  ls
+   92  mkdir linux_practice2/documents
+   93  mkdir -p linux_practice2/documents
+   94  ls
+   95  cd linux_practice2
+   96  cd documents/
+   97  touch gizumo-{01..50}.md
+   98  ls
+   99  cd ../
+  100  mkdir trash
+  101  ls
+  102  touch .gitignore
+  103  ls
+  104  ls -a
+  105  mv documents/gizumo-{20..40}.md trash/
+  106  ls documents/
+  107  ls trash
+  108  vi .gitignore 
+  109  cat .gitignore 
+  110  history 300 > exec_command.log
